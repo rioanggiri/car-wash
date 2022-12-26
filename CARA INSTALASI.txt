@@ -1,0 +1,11 @@
+pertama ekstrak rar
+jalankan php artisan key:generate
+buat database car_wash
+jalankan php artisan migrate --seed
+dah selesai
+
+masuk ke sistem sebagai admin 
+username 
+admin@gmail.com
+password
+password
