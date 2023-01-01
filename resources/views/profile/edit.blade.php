@@ -128,7 +128,7 @@
                     <div class="card-footer text-right">
                         <button class="btn btn-primary">Update</button>
                     </div>
-                    @if (session('status') === 'profile-updated')
+                    @if (session('status') === 'password-updated')
                     Saved.
                     @endif
                 </form>
