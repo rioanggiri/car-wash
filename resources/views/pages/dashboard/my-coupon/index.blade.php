@@ -51,7 +51,7 @@
                                     @elseif($item->coupon == 0)
                                     -
                                     @else
-                                    $item->coupon
+                                    {{ $item->coupon }}
                                     @endif
                                 </td>
                                 <td>
