@@ -46,7 +46,15 @@
                             </tr>
                             <tr>
                                 <th class="px-6 py-4 text-right">Jumlah Kupon :</th>
-                                <td class="px-6 py-4">{{ $item->coupon == 8 ? 'GRATIS CUCI' : $item->coupon }}</td>
+                                <td class="px-6 py-4">
+                                    @if ($item->coupon == 8)
+                                    GRATIS CUCI
+                                    @elseif($item->coupon == 0)
+                                    -
+                                    @else
+                                    {{ $item->coupon }}
+                                    @endif
+                                </td>
                             </tr>
                             <tr>
                                 <th class="px-6 py-4 text-right">Status :</th>
